@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CHEATSHEET by ANHSUL SONI
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./prism/prism.css">
+    <script src="./prism/prism.js"></script>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <span class="logo"><img src="clone.jpg"></span>
+
+        <div class="content center">
+            This HTML CheatSheet is For You!
+
+
+        </div>
+    </nav>
+
+    <center><button class="btn"><a href="./cheetsheet/htmlcheatsheet.pdf"><i class="fa fa-download">
+                </i>
+                Download </a></button></center>
+
+
+
+    <div class="container">
+
+        <ol>
+
+            <li>HTML Boilerplate
+                <pre class="language-html"><code>
+&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;meta charset="UTF-8">
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge">
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+&lt;title>Document&lt;/title>
+&lt;/head>
+&lt;body>
+&lt;!--Body content-->                       
+&lt;/body>
+&lt;/html>
+</code> </pre>
+
+            </li>
+
+            <h3>Basic Tags👇</h3>
+
+            <li>Html tag: Creates an HTML document
+                <pre class="language-html"><code>&lt;html>&lt;/html></code></pre>
+            </li>
+
+            <li>Head tag: Sets off the title & other info that isn't displayed
+                <pre class="language-html"><code>&lt;head>&lt;/head></code></pre>
+            </li>
+
+            <li>Body tag: Sets off the visible portion of the document
+                <pre class="language-html"><code>&lt;body>&lt;/body></code></pre>
+            </li>
+
+            <li>Title tag: Puts name of the document in the title bar; when bookmarking pages, this is what is
+                bookmarked
+                <pre class="language-html"><code>&lt;title>&lt;/title></code></pre>
+            </li>
+
+            <h3>Body attributes (only used in email newsletters)👇</h3>
+
+            <li>Body bgcolor: Sets background color, using name or hex value
+                <pre class="language-html"><code>&lt;body bgcolor=?></code></pre>
+            </li>
+
+            <li>Body text: Sets text color, using name or hex value
+                <pre class="language-html"><code>&lt;body text=?></code></pre>
+            </li>
+
+            <li>Body link: Sets color of links, using name or hex value
+                <pre class="language-html"><code>&lt;body link=?></code></pre>
+            </li>
+
+            <li>Body vlink:Sets color of visited links, using name or hex value
+                <pre class="language-html"><code>&lt;body vlink=?></code></pre>
+            </li>
+
+            <li>Body alink: Sets color of active links (while mouse-clicking)
+                <pre class="language-html"><code>&lt;body alink=?></code></pre>
+            </li>
+
+            <h3>Page layout</h3>
+            <center>
+                <h5><span style="color:red">Note- </span>It is very important!</h5>
+            </center>
+
+            <li>Header tag: It used to add navbar content and headings of the page.
+                <pre class="language-html"><code>&lt;header>&lt;/header></code></pre>
+            </li>
+
+            <li>Main tag: It is used as a main content of the webpage
+                <pre class="language-html"><code>&lt;main>&lt;/main></code></pre>
+            </li>
+
+            <li>Footer tag: It used as a bottom content of the webpage
+                <pre class="language-html"><code>&lt;footer>&lt;/footer></code></pre>
+            </li>
+
+            <li>Section tag: It used divide the code in section (used in inside the main tag)
+                <pre class="language-html"><code>&lt;section>&lt;/section></code></pre>
+            </li>
+
+            <li>Article tag: It is used to add some important text
+                <pre class="language-html"><code>&lt;article>&lt;/article></code></pre>
+            </li>
+
+            <li>Aside tag: Content aside from the content(eg-adds etc)
+                <pre class="langiage-html"><code>&lt;aside>&lt;/aside></code></pre>
+            </li>
+
+            <h3>FORMATTING 👇</h3>
+
+            <li>Paragraph tag : Creates a new Paragraph
+                <pre class="language-html"><code>&lt;p>//contains paragraph&lt;/p></code></pre>
+            </li>
+
+            <li>Br tag: A Inserts a line break
+                <pre class="language-html"><code>&lt;br>&lt;/br>
+</code></pre>
+            </li>
+
+            <li>Blockquote tag: Puts content in a quote - indents text from both sides
+                <pre class=language-html><code>&lt;blockquote>&lt;/blockquote></code></pre>
+            </li>
+
+            <li>Div tag: Used to format block content with CSS
+                <pre class="language-html"><code>&lt;div>&lt;/div></code></pre>
+
+            </li>
+
+            <li>Span tag: Used to format inline content with CSS
+                <pre class="language-html"><code>&lt;span>&lt;/span></code></pre>
+
+            </li>
+
+            <h3>LISTS 👇</h3>
+
+            <li>Ul tag: Creates an unordered list
+                <pre class="language-html"><code>&lt;ul>&lt;/ul></code></pre>
+            </li>
+
+            <li>Ol tag: Creates an ordered list (start=xx,
+                where xx is a counting number)
+                <pre class="language-html"><code>&lt;ol start=?>&lt;/ol></code></pre>
+            </li>
+
+            <li>Li tag: Encompasses each list item
+                <pre class="language-html"><code>&lt;li>&lt;/li></code></pre>
+            </li>
+
+            <li>Dl tag: Creates a definition list
+                <pre class="language-html"><code>&lt;dl>&lt;/dl></code></pre>
+            </li>
+
+            <li>Dt tag: Precedes eachdefintion term
+                <pre class="language-html"><code>&lt;dt>&lt;/dt></code></pre>
+            </li>
+
+            <li>Dd tag: Precedes eachdefintion
+                <pre class="language-html"><code>&lt;dd>&lt;/dd></code></pre>
+            </li>
+
+            <h3>Text Tags👇</h3>
+
+
+            <li>Pre tag: Creates preformatted text
+                <pre class="language-html"><code>&lt;pre>&lt;/pre></code></pre>
+            </li>
+
+            <li>Heading tags: Creates headlines -- H1=largest, H6=smallest
+                <pre class="language-html"><code>&lt;h1>&lt;/h1></code></pre>
+                <pre class="language-html"><code>&lt;h2>&lt;/h2></code></pre>
+                <pre class="language-html"><code>&lt;h3>&lt;/h3></code></pre>
+                <pre class="language-html"><code>&lt;h4>&lt;/h4></code></pre>
+                <pre class="language-html"><code>&lt;h5>&lt;/h5></code></pre>
+                <pre class="language-html"><code>&lt;h6>&lt;/h6></code></pre>
+            </li>
+
+            <li>Bold tag: Creates bold text (should use <b>&lt;strong></b> instead)
+                <pre class="language-html"><code>&lt;b>&lt;/b></code></pre>
+            </li>
+
+            <li>Underline tag: Creates underline on text
+                <pre class="language-html"><code>&lt;u>&lt;/u></code></pre>
+            </li>
+
+            <li>Italic tag: Creates italicized text (should use <b>&lt;em></b> instead)
+                <pre class="language-html"><code>&lt;i>&lt;/i></code></pre>
+            </li>
+
+            <li>Tt tag: Creates typewriter-style text
+                <pre class="language-html"><code>&lt;tt>&lt;/tt></code></pre>
+            </li>
+
+            <li>code tag: Used to define source code, usually monospace
+                <pre class="language-html"><code>&lt;code>&lt;/code></code></pre>
+            </li>
+
+            <li>Cite tag: Creates a citation, usually processed in italics
+                <pre class="language-html"><code>&lt;cite>&lt;/cite></code></pre>
+            </li>
+
+            <li>Address tag: Creates address section, usually processed in italics
+                <pre class="language-html"><code>&lt;address>&lt;/address></code></pre>
+            </li>
+
+            <li>Em tag: Emphasizes a word (usually processed in italics)
+                <pre class="language-html"><code>&lt;em>&lt;/em></code></pre>
+            </li>
+
+            <li>Strong tag: Emphasizes a word (usually processed in bold)
+                <pre class="language-html"><code>&lt;strong>&lt;/strong></code></pre>
+            </li>
+
+            <li>Font size tag: Sets size of font - 1 to 7 (should use CSS instead)
+                <pre class="language-html"><code>&lt;font size=?> &lt;/font> 
+</code></pre>
+            </li>
+
+            <li>Font color tag: Sets font color (should use CSS instead)
+                <pre class="language-html"><code>&lt;font color=?> &lt;/font>
+</code></pre>
+            </li>
+
+            <li>Font face tag: Defines the font used (should use CSS instead)
+                <pre class="language-html"><code>&lt;font face=?> &lt;/font></code></pre>
+            </li>
+
+            <h3>Graphical elements👇</h3>
+
+            <li>Hr tag: Inserts a horizontal rule
+                <pre class="language-html"><code>&lt;hr></code></pre>
+            </li>
+
+            <li>Hr size tag: Sets size (height) of horizontal rule
+                <pre class="language-html"><code>&lt;hr size=?></code></pre>
+            </li>
+
+            <li>Hr width tag: Sets width of rule (as a % or absolute pixel length)
+                <pre class="language-html"><code>&lt;hr width=?></code></pre>
+            </li>
+
+            <li>Hr noshade tag: Creates a horizontal rule without a shadow
+                <pre class="language-html"><code>&lt;hr noshade></code></pre>
+            </li>
+
+            <li>Image tag: Adds image; it is a separate file located at the URL
+
+                <pre class="language-html"><code>&lt;img src="&lt;!--url of the image-->"/></code></pre>
+
+            </li>
+
+            <li>Image tag with align attribute: Aligns image left/right/center/bottom/top/middle (use CSS)
+                <pre class="language-html"><code>&lt;img src="&lt;!-- Url of the image-->" align=?></code></pre>
+            </li>
+
+            <li>Image tag with border attribute: Sets size of border surrounding image (use CSS)
+                <pre class="language-html"><code>&lt;img src="&lt;!--url of the image" border=?></code></pre>
+            </li>
+
+            <li>Image tag with height attribute: Sets height of image, in pixels
+                <pre class="language-html"><code>&lt;img src="&lt;!--url of the image-->" height=?>
+</code></pre>
+            </li>
+
+            <li>Image tag with width attribute: Sets width of image, in pixels
+                <pre class="language-html"><code>&lt;img src="&lt;!-- url of the image-->" width=?></code></pre>
+            </li>
+
+            <li>Image tag with alt attribute: Sets the alternate text for browsers that can't
+                process images (required by the ADA)
+                <pre class="language-html"><code>&lt;img src="&lt;!--url of the image-->" alt=?></code></pre>
+            </li>
+
+            <li>Button tag: It help to create clickable button in HTML <button class="btn-more"><a
+                        href="./cheetsheet/button tag in html.jpg" download>
+                        More about button</a></button>
+                <pre class="language-html"><code>&lt;button type="button"> &lt;/button></code></pre>
+            </li>
+
+            <h3>LINKS👇</h3>
+
+            <li>Anchor tag: Creates a hyperlink to a Uniform Resource Locator
+                <pre class="language-html"><code>&lt;a href="URL">clickable text&lt;/a></code></pre>
+            </li>
+
+            <li>Email anchor tag: Creates a hyperlink to an email address
+                <pre class="language-html"><code>&lt;a href="mailto:EMAIL_ADDRESS">clickable text&lt;/a></code></pre>
+            </li>
+
+            <li>Anchor tag with name attribute: Creates a target location within a document
+                <pre class="language-html"><code>&lt;a name="NAME"></code></pre>
+            </li>
+
+            <li>Anchor tag with href attribute: Creates a link to that target location
+                <pre class="language-html"><code>&lt;a href="#NAME">clickable text&lt;/a></code></pre>
+            </li>
+
+
+
+            <h3>Forms👇</h3>
+
+            <li>Form tag: Defines a form
+                <pre class="language-html"><code>&lt;form>&lt;/form></code></pre>
+            </li>
+
+            <li>Select tag with multiple name attribute: Creates a scrolling menu. Size sets the number of
+                menu items visible before user needs to scroll.
+                <pre class=language-html><code>&lt;select multiple name=? size=?> &lt;/select></code></pre>
+            </li>
+
+            <li>Select tag with name attribute: Creates a pulldown menu
+                <pre class="language-html"><code>&lt;select name=?>&lt;/select></code></pre>
+            </li>
+
+            <li>Option tag: Sets off each menu item
+                <pre class="language-html"><code>&lt;option></code></pre>
+            </li>
+
+            <li>Textarea tag: Creates a text box area. Columns set the width;
+                rows set the height.
+                <pre class="language-html"><code>&lt;textarea name=? cols="x" rows="y">&lt;/textarea>
+</code></pre>
+            </li>
+
+            <li>Input checkbox tag: Creates a checkbox.
+                <pre class="language-html"><code>&lt;input type="checkbox" name=? value=?></code></pre>
+            </li>
+
+            <li>Input checkbox(checked) tag: Creates a checkbox which is pre-checked.
+                <pre class="language-html"><code>&lt;input type="checkbox" name=? value=? checked></code></pre>
+            </li>
+
+            <li>Input radio tag: Creates a radio button.
+                <pre class="language-html"><code>&lt;input type="radio" name=? value=?>
+</code></pre>
+            </li>
+
+            <li>Input radio tag(checked): Creates a radio button which is pre-checked.
+                <pre class="language-html"><code>&lt;input type="radio" name=? value=? checked>
+</code></pre>
+            </li>
+
+            <li>Input image tag: Creates a one-line text area. Size sets length, in
+                characters.
+                <pre class="language-html"><code>&lt;input type="text" name=? size=?>
+</code></pre>
+            </li>
+
+            <li>Input submit tag: Creates a submit button. Value sets the text in the
+                submit button.
+                <pre class="language-html"><code>&lt;input type="submit" value=?>
+</code></pre>
+            </li>
+
+            <li>Input image tag: Creates a submit button using an image.
+                <pre class="language-html"><code>&lt;input type="image" name=? src=? border=? alt=?></code></pre>
+            </li>
+
+            <li>Input reset tag: Creates a reset button
+                <pre class="language-html"><code>&lt;input type="reset">
+</code></pre>
+            </li>
+
+            <h3>Tables (use only for data layout - use CSS for page layout) 👇 </h3>
+
+            <li>Table tag: Creates a table
+                <pre class="language-html"><code>&lt;table>&lt;/table> </code></pre>
+            </li>
+
+            <li>Table row tag: Sets off each row in a table
+                <pre class="language-html"><code>&lt;tr>&lt;/tr></code></pre>
+            </li>
+
+            <li>Table data tag: Sets off each cell in a row
+                <pre class="language-html"><code>&lt;td>&lt;/td></code></pre>
+            </li>
+
+            <li>Table heading
+                <pre class="language-html"><code>&lt;th>&lt;/th></code></pre>
+            </li>
+
+            <h3>HTML5 input tag attributes 👇</h3>
+            <center>
+                <h5><span style="color:red">Notes- </span>not all this browsers support; visit http://caniuse.com
+                    for details</h5>
+            </center>
+
+            <li>Input email tag: Sets a single-line textbox for email addresses
+                <pre class="language-html"><code>&lt;input type="email" name=?> 
+</code></pre>
+            </li>
+
+            <li>Input url tag: Sets a single-line textbox for URLs
+                <pre class="language-html"><code>&lt;input type="url" name=?></code></pre>
+            </li>
+
+            <li>Input number tag: Sets a single-line textbox for URLs
+                <pre class="language-html"><code>&lt;input type="number" name=?></code></pre>
+            </li>
+
+            <li>Input range tag: Sets a single-line text box for a range of numbers
+                <pre class="language-html"><code>&lt;input type="range" name=?></code></pre>
+            </li>
+
+            <li>Input date/month/week/time tag: Sets a single-line text box with a calendar
+                showing the date/month/week/time
+                <pre class="language-html"><code>&lt;input type="date/month/week/time" name=?>
+</code></pre>
+            </li>
+
+            <li>Input search tag: Sets a single-line text box for searching
+                <pre class="language-html"><code>&lt;input type="search" name=?></code></pre>
+            </li>
+
+            <li>Input color: Sets a single-line text box for picking a color
+                <pre class="language-html"><code>&lt;input type="color" name=?> 
+</code></pre>
+            </li>
+
+            <h3>Table attributes (only use for email newsletters)</h3>
+
+            <li>Table border tag: Sets the width of the border around table cells
+                <pre class="language-html"><code>&lt;table border=?>
+            </code></pre>
+            </li>
+
+            <li>Table cellspacing tag: Sets amount of space between table cells
+                <pre class="language-html"><code>&lt;table cellspacing=?></code></pre>
+            </li>
+
+            <li>Table cellpadding tag: Sets amount of space between a cell's border and
+                its contents
+                <pre class="language-html"><code>&lt;table cellpadding=?></code></pre>
+            </li>
+
+            <li>Table width tag: Sets width of the table in pixels or as a percentage
+                <pre class="language-html"><code>&lt;table width=?>
+</code></pre>
+            </li>
+
+            <li>Table row align tag: Sets alignment for cells within the row
+                (left/center/right)
+                <pre class="language-html"><code>&lt;tr align=?></code></pre>
+            </li>
+
+            <li>Table data align tag: Sets alignment for cells (left/center/right)
+                <pre class="language-html"><code>&lt;td align=?></code></pre>
+            </li>
+
+            <li>Table row valign tag: Sets vertical alignment for cells within the row
+                (top/middle/bottom)
+                <pre class="language-html"><code>&lt;tr valign=?></code></pre>
+            </li>
+
+            <li>Table data valign tag: Sets vertical alignment for cell (top/middle/bottom)
+                <pre class="language-html"><code>&lt;td valign=?></code></pre>
+            </li>
+
+            <li>Table data rowspan: Sets number of rows a cell should span (default=1)
+                <pre class="language-html"><code>&lt;td rowspan=?></code></pre>
+            </li>
+
+            <li>Table data colspan: Sets number of columns a cell should span
+                <pre class="language-html"><code>&lt;td colspan=?></code></pre>
+            </li>
+
+            <li>Table data nowrap: Prevents lines within a cell from being broken to fit
+                <pre class="language-html"><code>&lt;td nowrap>
+</code></pre>
+            </li>
+
+
+        </ol>
+
+
+    </div>
+    <!-- contact form  -->
+    <section id="contact">
+        <div class="contact-box">
+            <div class="contact-links">
+                <h2>CONTACT</h2>
+                <div class="links">
+                    <div class="link">
+                        <a href="https://www.linkedin.com/in/anshul-soni2010/"><img src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin"></a>
+                    </div>
+                    <div class="link">
+                        <a href="https://github.com/anshulsoni2010"> <img src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form action="https://formspree.io/f/mgeqozbe" method="post">
+                    <div class="form-item">
+                        <input type="text" name="sender" required>
+                        <label>Name:</label>
+                    </div>
+                    <div class="form-item">
+                        <input type="text" name="email" required>
+                        <label>Email:</label>
+                    </div>
+                    <div class="form-item">
+                        <textarea class="" name="message" type="message" minlength="10" required></textarea>
+                        <label>Message:</label>
+                    </div>
+                    <button class="submit-btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://free-hit-counters.net/count/ba7b"></script><br>
+    <script type='text/javascript' src='https://whomania.com/ctr?id=ba4dac5bdfb9404de8b876d5d54b396e488c6170'></script>
+
+    <footer>
+        <P>Created by ANSHUL SONI</P>
+    </footer>
+</body>
+
+</html>
